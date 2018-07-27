@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    a: # Configuration of https://github.com/brettwooldridge/HikariCP
+      jdbcUrl: jdbc:h2:mem:test_a
+      username:
+      password:
+      maximumPoolSize: 10
+    b:
+      jdbcUrl: jdbc:h2:mem:test_b
+      username:
+      password:
+      maximumPoolSize: 10
